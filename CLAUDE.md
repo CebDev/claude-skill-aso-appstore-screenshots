@@ -22,7 +22,7 @@ Four files + one asset make up the skill:
 # Requires: pip install Pillow
 # Requires: SF Pro Display Black font at /Library/Fonts/SF-Pro-Display-Black.otf
 
-python3 compose.py \
+$HOME/claude-python/.venv/bin/python compose.py \
   --bg "#E31837" \
   --verb "TRACK" \
   --desc "TRADING CARD PRICES" \

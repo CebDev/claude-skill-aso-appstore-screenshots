@@ -14,12 +14,14 @@ A Claude Code skill that generates high-converting App Store screenshots for you
 ### 1. Add the skill to Claude Code
 
 ```bash
-claude install-skill github.com/adamlyttleapps/claude-skill-aso-appstore-screenshots
+claude install-skill github.com/cebdev/claude-skill-aso-appstore-screenshots
 ```
 
 ### 2. Install Python dependencies
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install Pillow
 ```
 
